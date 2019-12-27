@@ -1,4 +1,4 @@
-<pre>import string
+import string
 import urllib2
 from bottle import route, run, post, get, request
 
@@ -25,4 +25,3 @@ def isup():
         return 'Error'
 
 run(host='0.0.0.0', server="paste", port=8080, reloader=False)
-</pre>
