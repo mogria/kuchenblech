@@ -5,7 +5,7 @@ from bottle import route, run, post, get, request
 @get('/')
 def index():
     with open(__file__) as f:
-        return '&lt;pre&gt;' + "".join({'&lt;':'&lt;','&gt;':'&gt;'}.get(c,c) for c in f.read()) + '&lt;/pre&gt;'
+        return '<pre>' + "".join({'<':'<','>':'>'}.get(c,c) for c in f.read()) + '</pre>'
 
 
 @post('/isup')
